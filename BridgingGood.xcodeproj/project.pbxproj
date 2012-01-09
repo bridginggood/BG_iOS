@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A03177214BB301500CA6B55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A03177114BB301500CA6B55 /* UIKit.framework */; };
+		1A03177414BB301500CA6B55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A03177314BB301500CA6B55 /* Foundation.framework */; };
+		1A03177614BB301500CA6B55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A03177514BB301500CA6B55 /* CoreGraphics.framework */; };
+		1A03177C14BB301500CA6B55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A03177A14BB301500CA6B55 /* InfoPlist.strings */; };
+		1A03177E14BB301500CA6B55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A03177D14BB301500CA6B55 /* main.m */; };
+		1A03178214BB301500CA6B55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A03178114BB301500CA6B55 /* AppDelegate.m */; };
+		1A03178514BB301600CA6B55 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A03178314BB301600CA6B55 /* MainStoryboard_iPhone.storyboard */; };
+		1A03178814BB301600CA6B55 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A03178614BB301600CA6B55 /* MainStoryboard_iPad.storyboard */; };
+		1A03178B14BB301600CA6B55 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A03178A14BB301600CA6B55 /* FirstViewController.m */; };
+		1A03178D14BB301600CA6B55 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A03178C14BB301600CA6B55 /* first.png */; };
+		1A03178F14BB301600CA6B55 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A03178E14BB301600CA6B55 /* first@2x.png */; };
+		1A03179214BB301600CA6B55 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A03179114BB301600CA6B55 /* SecondViewController.m */; };
+		1A03179414BB301600CA6B55 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A03179314BB301600CA6B55 /* second.png */; };
+		1A03179614BB301600CA6B55 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A03179514BB301600CA6B55 /* second@2x.png */; };
+		1A03179E14BB301600CA6B55 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A03179D14BB301600CA6B55 /* SenTestingKit.framework */; };
+		1A03179F14BB301600CA6B55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A03177114BB301500CA6B55 /* UIKit.framework */; };
+		1A0317A014BB301600CA6B55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A03177314BB301500CA6B55 /* Foundation.framework */; };
+		1A0317A814BB301600CA6B55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A0317A614BB301600CA6B55 /* InfoPlist.strings */; };
+		1A0317AB14BB301600CA6B55 /* BridgingGoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0317AA14BB301600CA6B55 /* BridgingGoodTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A0317A114BB301600CA6B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A03176414BB301500CA6B55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A03176C14BB301500CA6B55;
+			remoteInfo = BridgingGood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A03176D14BB301500CA6B55 /* BridgingGood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgingGood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A03177114BB301500CA6B55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A03177314BB301500CA6B55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A03177514BB301500CA6B55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A03177914BB301500CA6B55 /* BridgingGood-Info.plist */ = {isa = PBXFileReference; path = "BridgingGood-Info.plist"; sourceTree = "<group>"; };
+		1A03177B14BB301500CA6B55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A03177D14BB301500CA6B55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A03177F14BB301500CA6B55 /* BridgingGood-Prefix.pch */ = {isa = PBXFileReference; path = "BridgingGood-Prefix.pch"; sourceTree = "<group>"; };
+		1A03178014BB301500CA6B55 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A03178114BB301500CA6B55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A03178414BB301600CA6B55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		1A03178714BB301600CA6B55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		1A03178914BB301600CA6B55 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		1A03178A14BB301600CA6B55 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1A03178C14BB301600CA6B55 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		1A03178E14BB301600CA6B55 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		1A03179014BB301600CA6B55 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		1A03179114BB301600CA6B55 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1A03179314BB301600CA6B55 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		1A03179514BB301600CA6B55 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		1A03179C14BB301600CA6B55 /* BridgingGoodTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgingGoodTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A03179D14BB301600CA6B55 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1A0317A514BB301600CA6B55 /* BridgingGoodTests-Info.plist */ = {isa = PBXFileReference; path = "BridgingGoodTests-Info.plist"; sourceTree = "<group>"; };
+		1A0317A714BB301600CA6B55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A0317A914BB301600CA6B55 /* BridgingGoodTests.h */ = {isa = PBXFileReference; path = BridgingGoodTests.h; sourceTree = "<group>"; };
+		1A0317AA14BB301600CA6B55 /* BridgingGoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgingGoodTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A03176A14BB301500CA6B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A03177214BB301500CA6B55 /* UIKit.framework in Frameworks */,
+				1A03177414BB301500CA6B55 /* Foundation.framework in Frameworks */,
+				1A03177614BB301500CA6B55 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A03179814BB301600CA6B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A03179E14BB301600CA6B55 /* SenTestingKit.framework in Frameworks */,
+				1A03179F14BB301600CA6B55 /* UIKit.framework in Frameworks */,
+				1A0317A014BB301600CA6B55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A03176214BB301500CA6B55 = {
+			isa = PBXGroup;
+			children = (
+				1A03177714BB301500CA6B55 /* BridgingGood */,
+				1A0317A314BB301600CA6B55 /* BridgingGoodTests */,
+				1A03177014BB301500CA6B55 /* Frameworks */,
+				1A03176E14BB301500CA6B55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A03176E14BB301500CA6B55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A03176D14BB301500CA6B55 /* BridgingGood.app */,
+				1A03179C14BB301600CA6B55 /* BridgingGoodTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A03177014BB301500CA6B55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A03177114BB301500CA6B55 /* UIKit.framework */,
+				1A03177314BB301500CA6B55 /* Foundation.framework */,
+				1A03177514BB301500CA6B55 /* CoreGraphics.framework */,
+				1A03179D14BB301600CA6B55 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A03177714BB301500CA6B55 /* BridgingGood */ = {
+			isa = PBXGroup;
+			children = (
+				1A03178014BB301500CA6B55 /* AppDelegate.h */,
+				1A03178114BB301500CA6B55 /* AppDelegate.m */,
+				1A03178314BB301600CA6B55 /* MainStoryboard_iPhone.storyboard */,
+				1A03178614BB301600CA6B55 /* MainStoryboard_iPad.storyboard */,
+				1A03178914BB301600CA6B55 /* FirstViewController.h */,
+				1A03178A14BB301600CA6B55 /* FirstViewController.m */,
+				1A03178C14BB301600CA6B55 /* first.png */,
+				1A03178E14BB301600CA6B55 /* first@2x.png */,
+				1A03179014BB301600CA6B55 /* SecondViewController.h */,
+				1A03179114BB301600CA6B55 /* SecondViewController.m */,
+				1A03179314BB301600CA6B55 /* second.png */,
+				1A03179514BB301600CA6B55 /* second@2x.png */,
+				1A03177814BB301500CA6B55 /* Supporting Files */,
+			);
+			path = BridgingGood;
+			sourceTree = "<group>";
+		};
+		1A03177814BB301500CA6B55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A03177914BB301500CA6B55 /* BridgingGood-Info.plist */,
+				1A03177A14BB301500CA6B55 /* InfoPlist.strings */,
+				1A03177D14BB301500CA6B55 /* main.m */,
+				1A03177F14BB301500CA6B55 /* BridgingGood-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A0317A314BB301600CA6B55 /* BridgingGoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A0317A914BB301600CA6B55 /* BridgingGoodTests.h */,
+				1A0317AA14BB301600CA6B55 /* BridgingGoodTests.m */,
+				1A0317A414BB301600CA6B55 /* Supporting Files */,
+			);
+			path = BridgingGoodTests;
+			sourceTree = "<group>";
+		};
+		1A0317A414BB301600CA6B55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A0317A514BB301600CA6B55 /* BridgingGoodTests-Info.plist */,
+				1A0317A614BB301600CA6B55 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A03176C14BB301500CA6B55 /* BridgingGood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0317AE14BB301600CA6B55 /* Build configuration list for PBXNativeTarget "BridgingGood" */;
+			buildPhases = (
+				1A03176914BB301500CA6B55 /* Sources */,
+				1A03176A14BB301500CA6B55 /* Frameworks */,
+				1A03176B14BB301500CA6B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgingGood;
+			productName = BridgingGood;
+			productReference = 1A03176D14BB301500CA6B55 /* BridgingGood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A03179B14BB301600CA6B55 /* BridgingGoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0317B114BB301600CA6B55 /* Build configuration list for PBXNativeTarget "BridgingGoodTests" */;
+			buildPhases = (
+				1A03179714BB301600CA6B55 /* Sources */,
+				1A03179814BB301600CA6B55 /* Frameworks */,
+				1A03179914BB301600CA6B55 /* Resources */,
+				1A03179A14BB301600CA6B55 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A0317A214BB301600CA6B55 /* PBXTargetDependency */,
+			);
+			name = BridgingGoodTests;
+			productName = BridgingGoodTests;
+			productReference = 1A03179C14BB301600CA6B55 /* BridgingGoodTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A03176414BB301500CA6B55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1A03176714BB301500CA6B55 /* Build configuration list for PBXProject "BridgingGood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A03176214BB301500CA6B55;
+			productRefGroup = 1A03176E14BB301500CA6B55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A03176C14BB301500CA6B55 /* BridgingGood */,
+				1A03179B14BB301600CA6B55 /* BridgingGoodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A03176B14BB301500CA6B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A03177C14BB301500CA6B55 /* InfoPlist.strings in Resources */,
+				1A03178514BB301600CA6B55 /* MainStoryboard_iPhone.storyboard in Resources */,
+				1A03178814BB301600CA6B55 /* MainStoryboard_iPad.storyboard in Resources */,
+				1A03178D14BB301600CA6B55 /* first.png in Resources */,
+				1A03178F14BB301600CA6B55 /* first@2x.png in Resources */,
+				1A03179414BB301600CA6B55 /* second.png in Resources */,
+				1A03179614BB301600CA6B55 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A03179914BB301600CA6B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0317A814BB301600CA6B55 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A03179A14BB301600CA6B55 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A03176914BB301500CA6B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A03177E14BB301500CA6B55 /* main.m in Sources */,
+				1A03178214BB301500CA6B55 /* AppDelegate.m in Sources */,
+				1A03178B14BB301600CA6B55 /* FirstViewController.m in Sources */,
+				1A03179214BB301600CA6B55 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A03179714BB301600CA6B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0317AB14BB301600CA6B55 /* BridgingGoodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A0317A214BB301600CA6B55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A03176C14BB301500CA6B55 /* BridgingGood */;
+			targetProxy = 1A0317A114BB301600CA6B55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A03177A14BB301500CA6B55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A03177B14BB301500CA6B55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A03178314BB301600CA6B55 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A03178414BB301600CA6B55 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1A03178614BB301600CA6B55 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A03178714BB301600CA6B55 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1A0317A614BB301600CA6B55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A0317A714BB301600CA6B55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A0317AC14BB301600CA6B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A0317AD14BB301600CA6B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A0317AF14BB301600CA6B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BridgingGood/BridgingGood-Prefix.pch";
+				INFOPLIST_FILE = "BridgingGood/BridgingGood-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A0317B014BB301600CA6B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BridgingGood/BridgingGood-Prefix.pch";
+				INFOPLIST_FILE = "BridgingGood/BridgingGood-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A0317B214BB301600CA6B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BridgingGood.app/BridgingGood";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BridgingGood/BridgingGood-Prefix.pch";
+				INFOPLIST_FILE = "BridgingGoodTests/BridgingGoodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1A0317B314BB301600CA6B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BridgingGood.app/BridgingGood";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BridgingGood/BridgingGood-Prefix.pch";
+				INFOPLIST_FILE = "BridgingGoodTests/BridgingGoodTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A03176714BB301500CA6B55 /* Build configuration list for PBXProject "BridgingGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0317AC14BB301600CA6B55 /* Debug */,
+				1A0317AD14BB301600CA6B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0317AE14BB301600CA6B55 /* Build configuration list for PBXNativeTarget "BridgingGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0317AF14BB301600CA6B55 /* Debug */,
+				1A0317B014BB301600CA6B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A0317B114BB301600CA6B55 /* Build configuration list for PBXNativeTarget "BridgingGoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0317B214BB301600CA6B55 /* Debug */,
+				1A0317B314BB301600CA6B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A03176414BB301500CA6B55 /* Project object */;
+}
