@@ -15,10 +15,8 @@
 		1A03178214BB301500CA6B55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A03178114BB301500CA6B55 /* AppDelegate.m */; };
 		1A03178514BB301600CA6B55 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A03178314BB301600CA6B55 /* MainStoryboard_iPhone.storyboard */; };
 		1A03178814BB301600CA6B55 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A03178614BB301600CA6B55 /* MainStoryboard_iPad.storyboard */; };
-		1A03178B14BB301600CA6B55 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A03178A14BB301600CA6B55 /* FirstViewController.m */; };
 		1A03178D14BB301600CA6B55 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A03178C14BB301600CA6B55 /* first.png */; };
 		1A03178F14BB301600CA6B55 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A03178E14BB301600CA6B55 /* first@2x.png */; };
-		1A03179214BB301600CA6B55 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A03179114BB301600CA6B55 /* SecondViewController.m */; };
 		1A03179414BB301600CA6B55 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A03179314BB301600CA6B55 /* second.png */; };
 		1A03179614BB301600CA6B55 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A03179514BB301600CA6B55 /* second@2x.png */; };
 		1A03179E14BB301600CA6B55 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A03179D14BB301600CA6B55 /* SenTestingKit.framework */; };
@@ -26,6 +24,15 @@
 		1A0317A014BB301600CA6B55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A03177314BB301500CA6B55 /* Foundation.framework */; };
 		1A0317A814BB301600CA6B55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A0317A614BB301600CA6B55 /* InfoPlist.strings */; };
 		1A0317AB14BB301600CA6B55 /* BridgingGoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0317AA14BB301600CA6B55 /* BridgingGoodTests.m */; };
+		1A185C5F14BF2FA2001A1141 /* BizCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A185C5E14BF2FA2001A1141 /* BizCell.m */; };
+		1A185C6A14C1D56D001A1141 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A185C6914C1D56D001A1141 /* MapKit.framework */; };
+		1A728B9A14BB48EA000A7216 /* BizMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A728B9914BB48EA000A7216 /* BizMapController.m */; };
+		1A728B9D14BB4902000A7216 /* BizDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A728B9C14BB4902000A7216 /* BizDetailController.m */; };
+		1A728BA014BB4918000A7216 /* BizListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A728B9F14BB4918000A7216 /* BizListController.m */; };
+		1A7C345814D6DFF30003BE53 /* PullRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7C345614D6DFF20003BE53 /* PullRefreshTableViewController.m */; };
+		1A7C345B14D6E2650003BE53 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7C345A14D6E2650003BE53 /* QuartzCore.framework */; };
+		1A80993614BDCAFA005B38A6 /* Business.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A80993514BDCAFA005B38A6 /* Business.m */; };
+		1A906E1D14D191F900EDE2C5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A906E1C14D191F800EDE2C5 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,28 +50,39 @@
 		1A03177114BB301500CA6B55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1A03177314BB301500CA6B55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1A03177514BB301500CA6B55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1A03177914BB301500CA6B55 /* BridgingGood-Info.plist */ = {isa = PBXFileReference; path = "BridgingGood-Info.plist"; sourceTree = "<group>"; };
+		1A03177914BB301500CA6B55 /* BridgingGood-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BridgingGood-Info.plist"; sourceTree = "<group>"; };
 		1A03177B14BB301500CA6B55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A03177D14BB301500CA6B55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1A03177F14BB301500CA6B55 /* BridgingGood-Prefix.pch */ = {isa = PBXFileReference; path = "BridgingGood-Prefix.pch"; sourceTree = "<group>"; };
-		1A03178014BB301500CA6B55 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A03177F14BB301500CA6B55 /* BridgingGood-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BridgingGood-Prefix.pch"; sourceTree = "<group>"; };
+		1A03178014BB301500CA6B55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A03178114BB301500CA6B55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1A03178414BB301600CA6B55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		1A03178714BB301600CA6B55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		1A03178914BB301600CA6B55 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
-		1A03178A14BB301600CA6B55 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		1A03178C14BB301600CA6B55 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		1A03178E14BB301600CA6B55 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		1A03179014BB301600CA6B55 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
-		1A03179114BB301600CA6B55 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		1A03179314BB301600CA6B55 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		1A03179514BB301600CA6B55 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		1A03179C14BB301600CA6B55 /* BridgingGoodTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgingGoodTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A03179D14BB301600CA6B55 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1A0317A514BB301600CA6B55 /* BridgingGoodTests-Info.plist */ = {isa = PBXFileReference; path = "BridgingGoodTests-Info.plist"; sourceTree = "<group>"; };
+		1A0317A514BB301600CA6B55 /* BridgingGoodTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BridgingGoodTests-Info.plist"; sourceTree = "<group>"; };
 		1A0317A714BB301600CA6B55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1A0317A914BB301600CA6B55 /* BridgingGoodTests.h */ = {isa = PBXFileReference; path = BridgingGoodTests.h; sourceTree = "<group>"; };
+		1A0317A914BB301600CA6B55 /* BridgingGoodTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingGoodTests.h; sourceTree = "<group>"; };
 		1A0317AA14BB301600CA6B55 /* BridgingGoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgingGoodTests.m; sourceTree = "<group>"; };
+		1A185C5D14BF2FA2001A1141 /* BizCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BizCell.h; sourceTree = "<group>"; };
+		1A185C5E14BF2FA2001A1141 /* BizCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BizCell.m; sourceTree = "<group>"; };
+		1A185C6914C1D56D001A1141 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1A728B9814BB48EA000A7216 /* BizMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BizMapController.h; sourceTree = "<group>"; };
+		1A728B9914BB48EA000A7216 /* BizMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BizMapController.m; sourceTree = "<group>"; };
+		1A728B9B14BB4902000A7216 /* BizDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BizDetailController.h; sourceTree = "<group>"; };
+		1A728B9C14BB4902000A7216 /* BizDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BizDetailController.m; sourceTree = "<group>"; };
+		1A728B9E14BB4918000A7216 /* BizListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BizListController.h; sourceTree = "<group>"; };
+		1A728B9F14BB4918000A7216 /* BizListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BizListController.m; sourceTree = "<group>"; };
+		1A7C345614D6DFF20003BE53 /* PullRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullRefreshTableViewController.m; sourceTree = "<group>"; };
+		1A7C345714D6DFF20003BE53 /* PullRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullRefreshTableViewController.h; sourceTree = "<group>"; };
+		1A7C345A14D6E2650003BE53 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1A80993414BDCAFA005B38A6 /* Business.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Business.h; sourceTree = "<group>"; };
+		1A80993514BDCAFA005B38A6 /* Business.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Business.m; sourceTree = "<group>"; };
+		1A906E1C14D191F800EDE2C5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7C345B14D6E2650003BE53 /* QuartzCore.framework in Frameworks */,
+				1A906E1D14D191F900EDE2C5 /* CoreLocation.framework in Frameworks */,
+				1A185C6A14C1D56D001A1141 /* MapKit.framework in Frameworks */,
 				1A03177214BB301500CA6B55 /* UIKit.framework in Frameworks */,
 				1A03177414BB301500CA6B55 /* Foundation.framework in Frameworks */,
 				1A03177614BB301500CA6B55 /* CoreGraphics.framework in Frameworks */,
@@ -113,6 +134,9 @@
 		1A03177014BB301500CA6B55 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1A7C345A14D6E2650003BE53 /* QuartzCore.framework */,
+				1A906E1C14D191F800EDE2C5 /* CoreLocation.framework */,
+				1A185C6914C1D56D001A1141 /* MapKit.framework */,
 				1A03177114BB301500CA6B55 /* UIKit.framework */,
 				1A03177314BB301500CA6B55 /* Foundation.framework */,
 				1A03177514BB301500CA6B55 /* CoreGraphics.framework */,
@@ -124,19 +148,27 @@
 		1A03177714BB301500CA6B55 /* BridgingGood */ = {
 			isa = PBXGroup;
 			children = (
+				1A80993414BDCAFA005B38A6 /* Business.h */,
+				1A80993514BDCAFA005B38A6 /* Business.m */,
 				1A03178014BB301500CA6B55 /* AppDelegate.h */,
 				1A03178114BB301500CA6B55 /* AppDelegate.m */,
 				1A03178314BB301600CA6B55 /* MainStoryboard_iPhone.storyboard */,
 				1A03178614BB301600CA6B55 /* MainStoryboard_iPad.storyboard */,
-				1A03178914BB301600CA6B55 /* FirstViewController.h */,
-				1A03178A14BB301600CA6B55 /* FirstViewController.m */,
 				1A03178C14BB301600CA6B55 /* first.png */,
 				1A03178E14BB301600CA6B55 /* first@2x.png */,
-				1A03179014BB301600CA6B55 /* SecondViewController.h */,
-				1A03179114BB301600CA6B55 /* SecondViewController.m */,
 				1A03179314BB301600CA6B55 /* second.png */,
 				1A03179514BB301600CA6B55 /* second@2x.png */,
+				1A728B9814BB48EA000A7216 /* BizMapController.h */,
+				1A728B9914BB48EA000A7216 /* BizMapController.m */,
+				1A728B9B14BB4902000A7216 /* BizDetailController.h */,
+				1A728B9C14BB4902000A7216 /* BizDetailController.m */,
+				1A728B9E14BB4918000A7216 /* BizListController.h */,
+				1A728B9F14BB4918000A7216 /* BizListController.m */,
+				1A7C345614D6DFF20003BE53 /* PullRefreshTableViewController.m */,
+				1A7C345714D6DFF20003BE53 /* PullRefreshTableViewController.h */,
 				1A03177814BB301500CA6B55 /* Supporting Files */,
+				1A185C5D14BF2FA2001A1141 /* BizCell.h */,
+				1A185C5E14BF2FA2001A1141 /* BizCell.m */,
 			);
 			path = BridgingGood;
 			sourceTree = "<group>";
@@ -284,8 +316,12 @@
 			files = (
 				1A03177E14BB301500CA6B55 /* main.m in Sources */,
 				1A03178214BB301500CA6B55 /* AppDelegate.m in Sources */,
-				1A03178B14BB301600CA6B55 /* FirstViewController.m in Sources */,
-				1A03179214BB301600CA6B55 /* SecondViewController.m in Sources */,
+				1A728B9A14BB48EA000A7216 /* BizMapController.m in Sources */,
+				1A728B9D14BB4902000A7216 /* BizDetailController.m in Sources */,
+				1A728BA014BB4918000A7216 /* BizListController.m in Sources */,
+				1A80993614BDCAFA005B38A6 /* Business.m in Sources */,
+				1A185C5F14BF2FA2001A1141 /* BizCell.m in Sources */,
+				1A7C345814D6DFF30003BE53 /* PullRefreshTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,10 +429,15 @@
 		1A0317AF14BB301600CA6B55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: ChunJong Park (3ZVJ8H3898)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ChunJong Park (3ZVJ8H3898)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BridgingGood/BridgingGood-Prefix.pch";
 				INFOPLIST_FILE = "BridgingGood/BridgingGood-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "BC901A4D-37D8-4BA6-832C-E66FD69F2BC3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BC901A4D-37D8-4BA6-832C-E66FD69F2BC3";
+				SDKROOT = iphoneos5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,10 +445,15 @@
 		1A0317B014BB301600CA6B55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: ChunJong Park (3ZVJ8H3898)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ChunJong Park (3ZVJ8H3898)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BridgingGood/BridgingGood-Prefix.pch";
 				INFOPLIST_FILE = "BridgingGood/BridgingGood-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "BC901A4D-37D8-4BA6-832C-E66FD69F2BC3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BC901A4D-37D8-4BA6-832C-E66FD69F2BC3";
+				SDKROOT = iphoneos5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -465,6 +511,7 @@
 				1A0317B014BB301600CA6B55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A0317B114BB301600CA6B55 /* Build configuration list for PBXNativeTarget "BridgingGoodTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +520,7 @@
 				1A0317B314BB301600CA6B55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
