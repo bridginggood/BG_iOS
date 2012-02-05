@@ -276,6 +276,7 @@
 
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
 	if(nil != self.currBizContent){
+        //Test line
 		self.currBizContent=string;
 	}
 }
