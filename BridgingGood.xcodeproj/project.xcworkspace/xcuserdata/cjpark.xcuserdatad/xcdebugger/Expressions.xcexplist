@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[BizListController parser:didStartElement:namespaceURI:qualifiedName:attributes:]:BizListController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "qualifiedName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BizListController prepareForSegue:sender:]:BizListController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BizListController tableView:cellForRowAtIndexPath:]:BizListController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
